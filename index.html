@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> FORM </title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <br>
+        <h1>KPI Registration Form</h1>
+        <br>
+        <table border="1" cellspacing="5" cellpadding="5">
+            <tr>
+                <td><b> First Name</b></td>
+                <td><input type ="text" name="first_name" placeholder="Enter your first name">
+                </td>
+             <tr>
+                <td> Last Name</td>
+                <td><input type ="text" name="Last_name" placeholder="Enter your last name">
+                </td>
+          
+            <tr>
+                <td> E-mail Name</td>
+                <td><input type ="text" name="E-mai_name" placeholder="Enter your e-mail name">
+                </td>
+             <tr>
+                 <td>Your Skills</td>
+                 <td> <input type="checkbox" name="skills[]" value="php">PHP <br/>
+                        <input type="checkbox" name="skills[]" value="CSS">CSS <br/>
+                         <input type="checkbox" name="skills[]" value="html">HTML <br/>
+                 </td>
+            <tr>
+            <td>Your Gender</td>
+            <td> <input type ="radio" name="Gender" value="male"> Male <br/>
+                <input type ="radio" name="Gender" value="female"> female <br/>
+            </td>
+        </tr>
+        <tr>
+            <td> Your City </td>
+            <td>
+                <select name="city">
+                    <option valur="">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Rangpur">Rangpur</option>
+                      <option value="Kurigram">Kurigram</option>
+                </select>
+            </td>
+            </tr>
+            
+        <tr>
+            <td> <input type="reset" name="reset" value="clear the Form"> </td>
+            <td><input type="submit" name="submit" value="Registration"> </td>
+        </tr>
+        </table>
+                    
+    </body>
+</html>
